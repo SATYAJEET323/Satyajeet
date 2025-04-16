@@ -1,0 +1,131 @@
+/* project.css */
+
+/* Overall Project List Container */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Limit the width of the container */
+  }
+  
+  /* Responsive Layouts */
+  @media (max-width: 1024px) {
+    .project-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .project-list {
+      grid-template-columns: 1fr; /* 1 column on mobiles */
+    }
+  }
+  
+  /* Project Card Styling */
+  .project-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Content within each card */
+  .project-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Title */
+  .project-title {
+    font-size: 1.5rem;
+    color: var(--highlight); /* customizable with CSS variables */
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Description */
+  .project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  
+  /* Link */
+  .project-link {
+    font-size: 1rem;
+    color: var(--text); /* customizable text color */
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .project-link:hover {
+    text-decoration: dotted;
+  }
+  
+  /* Optional: Slick Carousel Dots */
+  .slick-dots {
+    bottom: -30px;
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .slick-dots li button {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #ff6f61;
+  }
+  
+  .project-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .project-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FFD700, #FFA500); /* Golden gradient */
+    color: #ffffff;
+    box-shadow: 0 0 10px #FFD700;
+    transition: all 0.3s ease;
+  }
+  
+  .project-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px #FFD700, 0 0 30px #FFA500;
+  }
+  
+  /* Optional: secondary button style (e.g., for live project) */
+  .project-button.secondary {
+    /* background: linear-gradient(135deg, #f9d423, #ff4e50); */
+    background: transparent;
+    box-shadow: 0 0 10px #f9d423;
+  }
+  
+  .project-button.secondary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px #f9d423, 0 0 30px #ff4e50;
+  }
+  
