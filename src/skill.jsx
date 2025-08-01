@@ -21,7 +21,7 @@ const skills = [
   },
   {
     skill: 'MERN Stack',
-    description: 'A JavaScript stack including MongoDB, Express.js, React, and Node.js for full-stack web development.',
+    description: 'Full-stack JavaScript development using MongoDB, Express, React, and Node.',
     icon: '🌐',
   },
   {
@@ -30,110 +30,140 @@ const skills = [
     icon: '⚛️',
   },
   {
-    skill: 'JavaScript',
-    description: 'Programming language for web development and more.',
-    icon: '🟨',
-  },
-  {
-    skill: 'Express.js',
-    description: 'Back-end web application framework for Node.js.',
-    icon: '🚀',
+    skill: 'React Native',
+    description: 'Cross-platform mobile app development using JavaScript and React.',
+    icon: '📱⚛️',
   },
   {
     skill: 'Next.js',
-    description: 'Front-end web application framework for Next.js.',
+    description: 'Production-grade React framework for server-side rendering and SEO.',
     icon: '❄️',
   },
   {
-    skill: 'HTML & CSS',
-    description: 'Designing and structuring web pages.',
-    icon: '📄',
-  },
-  {
     skill: 'Node.js',
-    description: 'Server-side JavaScript runtime environment.',
+    description: 'JavaScript runtime for scalable server-side and networking applications.',
     icon: '🌐',
   },
   {
+    skill: 'Express.js',
+    description: 'Minimal and flexible Node.js web application framework.',
+    icon: '🚀',
+  },
+  {
+    skill: 'JavaScript',
+    description: 'Core language for front-end and back-end web development.',
+    icon: '🟨',
+  },
+  {
+    skill: 'HTML & CSS',
+    description: 'Foundation for structuring and styling web content.',
+    icon: '📄',
+  },
+  {
     skill: 'Python',
-    description: 'Versatile programming language for backend and data science.',
+    description: 'Versatile language widely used in AI, ML, and scripting.',
     icon: '🐍',
   },
   {
     skill: 'Java',
-    description: 'Versatile programming language for applications.',
+    description: 'General-purpose language used for Android and enterprise applications.',
     icon: '☕',
   },
   {
-    skill: 'React Native',
-    description: 'Dynamic UI with JavaScript.',
-    icon: '📱⚛️',
-  },
-  {
     skill: 'SQL',
-    description: ' Language for managing relational databases.',
+    description: 'Structured query language for managing relational databases.',
     icon: '🗄️',
   },
   {
     skill: 'PHP',
-    description: 'Server-side scripting for websites.',
+    description: 'Scripting language for dynamic web content and backend services.',
     icon: '🐘',
+  },
+  {
+    skill: 'WordPress',
+    description: 'CMS for website design and content management.',
+    icon: '🌐',
+  },
+  {
+    skill: 'WebFlow',
+    description: 'No-code tool for designing responsive websites visually.',
+    icon: '🧩',
+  },
+  {
+    skill: 'Data Science & ML',
+    description: 'Analyzing data to extract insights and build intelligent systems.',
+    icon: '📊',
+  },
+  {
+    skill: 'NLP',
+    description: 'Working with natural language using AI techniques.',
+    icon: '🗣️',
   },
   {
     skill: 'DSA-Solving',
     description: 'Solving problems using Data Structures and Algorithms.',
-    icon: '🧩',
-  },
-  {
-    skill: 'WordPress',
-    description: 'Website building and management platform.',
-    icon: '🌐',
+    icon: '🧠',
   },
   {
     skill: 'Project Management',
-    description: 'Planning and executing project goals.',
+    description: 'Planning and executing software projects using Agile and Scrum.',
     icon: '📋',
   },
 ];
 
-// Software Data
 const software = [
   {
     skill: 'Visual Studio Code',
-    description: 'Lightweight code editor with extensions.',
+    description: 'Lightweight code editor with powerful extensions.',
     icon: '🖥️',
   },
   {
     skill: 'GitHub',
-    description: 'Code hosting and collaboration platform.',
+    description: 'Platform for hosting, sharing, and reviewing code.',
     icon: '🐙',
   },
   {
     skill: 'Git',
-    description: 'Version control system for code.',
+    description: 'Distributed version control system for tracking code changes.',
     icon: '🔀',
   },
   {
     skill: 'Android Studio',
-    description: 'Android app development environment.',
+    description: 'IDE for building native Android apps with Java/Kotlin.',
     icon: '🤖',
   },
   {
     skill: 'MySQL',
-    description: 'Relational database management system.',
+    description: 'Popular relational database management system.',
     icon: '🗄️',
   },
   {
     skill: 'Figma',
-    description: 'Collaborative design and prototyping tool for UI/UX.',
+    description: 'Collaborative design tool for UI/UX wireframing and prototyping.',
     icon: '🎨',
   },
   {
-  skill: 'Google Collab',
-  description: 'Cloud-based platform for writing and executing Python code with collaboration features.',
-  icon: '☁️',
-}
+    skill: 'Google Colab',
+    description: 'Online Python notebook with GPU support for ML and data science.',
+    icon: '☁️',
+  },
+  {
+    skill: 'XAMPP',
+    description: 'Open-source local web server for PHP and MySQL development.',
+    icon: '🖧',
+  },
+  {
+    skill: 'Postman',
+    description: 'API testing and collaboration platform.',
+    icon: '📫',
+  },
+  {
+    skill: 'Jupyter Notebook',
+    description: 'Interactive Python notebooks for data science and research.',
+    icon: '📒',
+  },
 ];
+
 
 // App Component
 function Skill() {

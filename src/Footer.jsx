@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2024 LoopXcoder. All rights reserved.</p>
+      <p>&copy; 2024 Satyajeet Desai. All rights reserved.</p>
       <div className="footer-links">
         <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
           LinkedIn
@@ -14,7 +14,7 @@ const Footer = () => {
           GitHub
         </a>
         <a href="https://codecypherai.in" target="_blank" rel="noopener noreferrer">
-          codecypher.in
+          satyajeet desai
         </a>
       </div>
     </footer>
