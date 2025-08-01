@@ -35,14 +35,14 @@ const App = () => {
         <div className="landing-container" id="home">
           <h1 className="landing-title">Satyajeet Desai</h1>
           <h2 className="landing-subtitle">
-            A Passionate Web Developer | Explorer of the Coding World
+            Data Science & AI Enthusiast | Problem Solver | Full-Stack Developer 
           </h2>
-          <p className="landing-description">
-            I create innovative web applications, solve complex problems, and
-            continuously evolve my skills to embrace new technologies in the
-            ever-evolving tech landscape.
-          </p>
+         <p className="landing-description">
+          I build smart web applications using the MERN stack, Python, and ML. Skilled in full-stack development, DSA, and AI technologies like NLP, I focus on creating scalable solutions while staying updated with the latest in tech.
+        </p>
+
         </div>
+
         <AboutMe />
         <Skill />
         <h1 id="Project">Projects</h1>
